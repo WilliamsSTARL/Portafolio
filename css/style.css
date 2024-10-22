@@ -106,7 +106,30 @@
     transition: 0.3s ease-in-out;
     /* border: 1px solid green; */
   }
-  
+
+  .image-content-jardin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60vmin;
+    height: 100%;
+    background-image: url("../Imagenes_proyectos/jardin-vigil.jpg");
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+    /* border: 1px solid green; */
+  }
+
+  .image-content-escuela7 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60vmin;
+    height: 100%;
+    background-image: url("../Imagenes_proyectos/escuela-7.jpg");
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+    /* border: 1px solid green; */
+  }
   .inset {
     max-width: 50%;
     margin: 0.25em 1em 1em 0;
