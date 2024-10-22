@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: rgb(3, 26, 41);">
+<body style="background-color: rgb(3, 26, 41); margin: 0; padding: 0; max-height: 100vh; overflow-x: hidden;">
     <div class="container">
-        <div class="d-flex justify-content-end" style="padding-top: 20px; padding-right: 20px;">
+        <div class="d-flex justify-content-end" style="padding-top: 20px; padding-right: 0;">
             <a href="https://linkedin.com/in/yourprofile" target="_blank" style="margin-right: 5px;"><img src="logos/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px;"></a>
             <a href="https://twitter.com/yourprofile" target="_blank" style="margin-right: 5px;"><img src="logos/twitter.png" alt="Twitter" style="width: 20px; height: 20px;"></a>
             <a href="https://instagram.com/yourprofile" target="_blank" style="margin-right: 5px;"><img src="logos/instagram.png" alt="Instagram" style="width: 20px; height: 20px;"></a>
             <a href="https://youtube.com/yourchannel" target="_blank" style="margin-right: 5px;"><img src="logos/youtube.png" alt="YouTube" style="width: 20px; height: 20px;"></a>
-            <a href="https://github.com/yourprofile" target="_blank"><img src="logos/github.png" alt="GitHub" style="width: 20px; height: 20px;"></a>
+            <a href="https://github.com/WilliamsSTARL" target="_blank"><img src="logos/github.png" alt="GitHub" style="width: 20px; height: 20px;"></a>
         </div>
         <div class="row justify-content-center">
             <div style="border-radius: 100%; width: 200px; height: 200px; overflow: hidden; margin-top: 20px;">
@@ -38,44 +39,71 @@
             </div>
         </section>
         <section id="proyectos" class="my-5">
-            <h2>Proyectos Destacados</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Proyecto 1</h5>
-                            <p class="card-text">Una breve descripción del proyecto y su impacto.</p>
-                            <a href="#" class="btn btn-primary mt-auto">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Proyecto 2</h5>
-                            <p class="card-text">Una breve descripción del proyecto y su impacto.</p>
-                            <a href="#" class="btn btn-primary mt-auto">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="img/proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Proyecto 3</h5>
-                            <p class="card-text">Una breve descripción del proyecto y su impacto.</p>
-                            <a href="#" class="btn btn-primary mt-auto">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>         
-        </section>
+            <h2 style="font-family: 'Roboto', sans-serif; color: #ffffff;">Proyectos Destacados</h2>
+            <div class="card-personalizada">
 
+            <div class="row">
+              <div class="col-md-6">
+              <div class="wrap animate pop" style="transform: scale(0.8);">
+                <div class="overlay">
+                  <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Pizzeria</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Sistema de gestión de <em>pizzería</em></p>
+                    <button class="btn btn-primary">
+                      Probar Sistema
+                    </button>                
+                  </div>
+                  <div class="image-content-pizzeria animate slide delay-5"></div>
+                  <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>El sistema de gestión de la pizzería ofrece una solución completa y eficiente que facilita la visualización del menú, la personalización de pedidos, la reserva de mesas y el proceso de pago en línea. Esta plataforma está diseñada para proporcionar una experiencia de usuario excepcional, asegurando rapidez y eficacia en cada paso.</p>
+                  <p>Gracias a la implementación de avanzados gestores de bases de datos, el sistema garantiza transacciones seguras y un manejo eficiente de la información, lo que se traduce en un servicio más rápido y confiable. Esto no solo mejora la experiencia del usuario, sino que también contribuye a un aumento significativo en las ventas al reducir los tiempos de espera y optimizar el proceso de pedido.</p>
+                  <p>La plataforma está diseñada para adaptarse a las necesidades de cada cliente, ofreciendo una interfaz intuitiva que permite a los usuarios navegar fácilmente por las opciones disponibles, hacer pedidos personalizados y programar sus reservas con antelación. Todo esto se combina para mejorar la satisfacción del cliente y fomentar la fidelidad hacia el establecimiento, asegurando una ventaja competitiva en el mercado.</p>
+                  <a href="https://github.com/WilliamsSTARL/pizeriaronaldo.github.io" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                    <img src="logos/github.png" alt="GitHub" style="width: 20px; height: 20px; margin-right: 5px;">
+                    <span>Ver en GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="wrap animate pop" style="transform: scale(0.8);">
+                <div class="overlay">
+                  <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Nirem</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Sistema de ventas y gestión ABM</p>
+                  </div>
+                  <div class="image-content-nirem animate slide delay-5"></div>
+                  <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>Nirem es un avanzado sistema de ventas que incluye facturación certificada por AFIP, gestión de stock y un sistema ABM (Alta, Baja, Modificación) para un manejo eficiente de productos y servicios. Este sistema permite la generación de tickets a través de impresoras térmicas y la lectura de códigos de barras, optimizando el proceso de ventas en puntos físicos.</p>
+                  <p>Además, Nirem ofrece un catálogo opcional que puede ser personalizado según las necesidades del negocio, facilitando a los clientes la exploración y selección de productos. La plataforma utiliza tecnologías de punta como Vue.js y Python, asegurando una experiencia de usuario rápida y segura.</p>
+                  <p>Con Nirem, las empresas pueden mejorar significativamente su eficiencia operativa y la satisfacción del cliente, gracias a su interfaz intuitiva y sus múltiples funcionalidades que se adaptan a diversos tipos de negocios y necesidades del mercado.</p>
+                  <a href="https://github.com/WilliamsSTARL/nirem" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                    <img src="logos/github.png" alt="GitHub" style="width: 20px; height: 20px; margin-right: 5px;">
+                    <span>Ver en GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </section>
+      </div>
+      
+      <div class="row">
         <div class="row d-flex my-0">
-            <footer class="bg-dark text-center text-lg-start text-white" position: relative; bottom: 0;">
+            <footer class="bg-dark text-center text-lg-start text-white" style="position: relative; bottom: 0;">
               <!-- Grid container -->
               <div class="container p-4">
                 <!--Grid row-->
@@ -88,7 +116,7 @@
                            loading="lazy" />
                     </div>
           
-                    <p class="text-center">Homless animal shelter The budgetary unit of the Capital City of Warsaw</p>
+                    <p class="text-center">Portfolio de Ignacio Williams, desarrollador fullstack especializado en tecnologías web.</p>
           
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                       <li>
@@ -103,101 +131,64 @@
                       </li>
                       <li>
                         <a class="text-white ps-2" href="#!">
-                          <i class="fab fa-youtube"></i>
+                          <i class="fab fa-linkedin"></i>
                         </a>
                       </li>
                     </ul>
-          
-                  </div>
-                  <!--Grid column-->
-          
-                  <!--Grid column-->
+                  </div>  
                   <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Animals</h5>
-          
+                    <h5 class="text-uppercase mb-4">Proyectos</h5>          
                     <ul class="list-unstyled">
                       <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>When your pet is missing</a>
+                        <a href="#!" class="text-white"><i class="fas fa-code pe-3"></i>Proyecto de E-commerce</a>
                       </li>
                       <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Recently found</a>
+                        <a href="#!" class="text-white"><i class="fas fa-code pe-3"></i>Aplicación móvil de salud</a>
                       </li>
                       <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>How to adopt?</a>
+                        <a href="#!" class="text-white"><i the="fas fa-code pe-3"></i>Sistema de gestión de contenido</a>
                       </li>
                       <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Pets for adoption</a>
-                      </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Material gifts</a>
-                      </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Help with walks</a>
-                      </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Volunteer activities</a>
+                        <a href="#!" class="text-white"><i the="fas fa-code pe-3"></i>Plataforma educativa online</a>
                       </li>
                     </ul>
                   </div>
-                  <!--Grid column-->
-          
-                  <!--Grid column-->
                   <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Animals</h5>
-          
+                    <h5 class="text-uppercase mb-4">Habilidades</h5>
                     <ul class="list-unstyled">
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>General information</a>
+                      <li class="mb-2 text-white">
+                        <i class="fas fa-laptop-code pe-3"></i>Desarrollo Frontend
                       </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>About the shelter</a>
+                      <li class="mb-2 text-white">
+                        <i class="fas fa-server pe-3"></i>Desarrollo Backend
                       </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Statistic data</a>
+                      <li class="mb-2 text-white">
+                        <i class="fas fa-network-wired pe-3"></i>DevOps
                       </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Job</a>
-                      </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Tenders</a>
-                      </li>
-                      <li class="mb-2">
-                        <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contact</a>
+                      <li class="mb-2 text-white">
+                        <i class="fas fa-database pe-3"></i>Bases de Datos
                       </li>
                     </ul>
                   </div>
-                  <!--Grid column-->
-          
-                  <!--Grid column-->
                   <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Contact</h5>
-          
+                    <h5 class="text-uppercase mb-4">Contacto</h5>
                     <ul class="list-unstyled">
                       <li>
-                        <p><i class="fas fa-map-marker-alt pe-2"></i>Warsaw, 57 Street, Poland</p>
+                        <p><i class="fas fa-phone pe-2"></i>+54 2246 55-4261</p>
                       </li>
                       <li>
-                        <p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
-                      </li>
-                      <li>
-                        <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@example.com</p>
+                        <p><i class="fas fa-envelope pe-2 mb-0"></i>ignaciowilliams1997@gmail.com</p>
                       </li>
                     </ul>
                   </div>
-                  <!--Grid column-->
                 </div>
-                <!--Grid row-->
               </div>
-              <!-- Grid container -->
-          
-              <!-- Copyright -->
               <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.5)">
-                © 2024 Copyright:
+                © 2024 Derechos de autor:
                 <a class="text-white" href="https://www.linkedin.com/in/ignacio-williams-0000000000/">Williams.com</a>
               </div>
-              <!-- Copyright -->
             </footer>
-          
           </div>
+      </div>
     </body>
 </html>
